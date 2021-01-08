@@ -26,7 +26,6 @@ class graphx(GraphScene):
         "graph_origin": 1.5*DOWN+2*LEFT,
         "exclude_zero_label": False,
     }
-    # defining graph function
 
     def construct(self):
         self.setup_axes(animate=True)
